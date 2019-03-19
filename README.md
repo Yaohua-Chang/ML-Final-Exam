@@ -90,7 +90,25 @@ Answer: (b)
 Answer: (a)
 
 ## Chapter 6
-1. Which of the following options is/are true for K-fold cross-validation?
+1. What’s not the part of streamlining workflows with pipelines? 
+
+    * a. Scaling dataset
+    * b. Dimensionality Reduction
+    * c. Spliting dataset into training set and test set
+    * d. Learning Algorithm
+
+Answer: (c)
+
+2. What’s part of dataset worked for model selection in holdout method? 
+
+    * a. Training dataset
+    * b. Validation dataset
+    * c. Test dataset
+    * d. Original dataset
+
+Answer: (b)
+
+3. Which of the following options is/are true for K-fold cross-validation?
     * a. Increase in K will result in higher time required to cross validate the result.
     * b. Higher values of K will result in higher confidence on the cross-validation result as compared to lower value of K.
     * c. If K=N, then it is called Leave one out cross validation, where N is the number of observations.
@@ -98,11 +116,20 @@ Answer: (a)
 
 Answer: (d)
 
-2. Which of the following hyper parameter(s), when increased may cause random forest to over fit the data?
-    * a. Number of Trees
-    * b. Depth of Tree
-    * c. Learning Rate
-    * d. None of the above  
+4. Which of the following is true about bias and variance? 
 
-Answer: (b)
+    * a. High bias model means overfitting.
+    * b. High variance model means underfitting.
+    * c. If our model is too simple and has very few parameters then it may have low bias and low variance. 
+    * d. If our model has large number of parameters then it’s going to have high variance and low bias.
 
+Answer: (d)
+
+5. Which of the following is not common way to address overfitting? 
+
+    * a. Increase the number of parameters of the model
+    * b. Collect more training data
+    * c. Reduce the complexity of the model
+    * d. Increase the regularization parameter
+
+Answer: (a)
