@@ -1,3 +1,7 @@
+## Chapter 1
+
+## Chapter 2
+
 ## Chapter 3
 
 1. The effectiveness of an SVM depends upon:
@@ -40,7 +44,11 @@ Answer: (d)
 
 Answer: (b)
 
+
 ## Chapter 4
+
+
+## Chapter 5
 1. Which of the following is not fundamental dimensionality reduction technique for feature extraction?
     * a. ICA
     * b. standard PCA
@@ -80,3 +88,21 @@ Answer: (b)
     * d. LDA aims to maximize both distance between class and distance within class.
 
 Answer: (a)
+
+## Chapter 6
+1. Which of the following options is/are true for K-fold cross-validation?
+    * a. Increase in K will result in higher time required to cross validate the result.
+    * b. Higher values of K will result in higher confidence on the cross-validation result as compared to lower value of K.
+    * c. If K=N, then it is called Leave one out cross validation, where N is the number of observations.
+    * d. All of the above  
+
+Answer: (d)
+
+2. Which of the following hyper parameter(s), when increased may cause random forest to over fit the data?
+    * a. Number of Trees
+    * b. Depth of Tree
+    * c. Learning Rate
+    * d. None of the above  
+
+Answer: (b)
+
