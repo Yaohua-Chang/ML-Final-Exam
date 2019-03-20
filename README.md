@@ -46,7 +46,45 @@ Answer: (b)
 
 
 ## Chapter 4
+1. Which strategy parameter is best choice for imputing categorical feature values when we deal with NaN value?
+    * a. mean
+    * b. median
+    * c. mass
+    * d. most_frequent  
 
+Answer: (d)
+
+2. Which of the following is not part of data processing?
+    * a. Imputing missing values
+    * b. Feature scaling
+    * c. Partitioning a dataset into separate training and test sets
+    * d. EDA
+
+Answer: (d)
+
+3. Which of the following is not common way to select features?
+    * a. L1 regularization
+    * b. L2 regularization
+    * c. random forest
+    * d. PCA
+
+Answer: (d)
+
+4. Which following solution is often not applicable to reduce the generalization error ?
+    * a. Collect more training data
+    * b. Introduce a penalty for complexity via regularization
+    * c. Choose a simpler model with fewer parameters
+    * d. Reduce the dimensionality of the data
+
+Answer: (a)
+
+5. Which is categorie of dimensionality reduction techniques?
+    * a. feature selection
+    * b. feature extraction
+    * c. Both of the above
+    * d. None of the above
+
+Answer: (c)
 
 ## Chapter 5
 1. Which of the following is not fundamental dimensionality reduction technique for feature extraction?
