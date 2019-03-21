@@ -44,6 +44,57 @@ Answer: (b)
 Answer: (a)
 
 ## Chapter 2
+1. What is the main difference between Adaline and a Perceptron?
+    * a. the weights are updated based on a linear activation function rather than a unit step function
+    * b. the weights are updated based on a unit step function rather than linear activation function 
+    * c. implement different functions
+    * d. None of the below
+
+Answer: (a)
+
+
+2. What is the main advantage of  continuous linear activation function compared to the unit step function?
+    * a. the cost function becomes differentiable
+    * b. the cost function is that it is convex
+    * c. Both of a and b
+    * d. None of the below
+
+Answer: (c)
+
+
+3. Which technique does gradient descent benefit from?
+    * a. feature selection
+    * b. feature extraction
+    * c. feature reduction
+    * d. feature scaling
+
+Answer: (d)
+
+3. Which technique does gradient descent benefit from?
+    * a. feature selection
+    * b. feature extraction
+    * c. feature reduction
+    * d. feature scaling
+
+Answer: (d)
+
+
+4. Which of the following is not a type of gradient descent?
+    * a. stochastic gradient descent 
+    * b. batch gradient descent
+    * c. mini-batch learning
+    * d. online learning
+
+Answer: (d)
+
+
+5. Which of the following is Not the advantage of stochastic gradient descent?
+    * a. It can escape shallow local minima more readily if we are working with nonlinear cost functions.
+    * b. It is useful for online learning.
+    * c. It can be considered as an approximation of gradient descent.
+    * d. It typically reaches convergence much faster.
+
+Answer: (c)
 
 ## Chapter 3
 
@@ -214,4 +265,3 @@ Answer: (d)
     * d. Increase the regularization parameter
 
 Answer: (a)
-
