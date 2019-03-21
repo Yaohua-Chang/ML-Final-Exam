@@ -1,4 +1,47 @@
 ## Chapter 1
+1. Which of the following is not types of machine learning:
+    * a. supervised learning
+    * b. unsupervised learning
+    * c. reinforcement learning
+    * d. deep learning
+
+Answer: (d)
+
+
+2. Which of the following does not belong to a typical workflow:
+    * a. Preprocessing
+    * b. Learning
+    * c. EDA
+    * d. Evaluation
+
+Answer: (c)
+
+
+3. Which of the following can not be used in unsupervised learning:
+    * a. Classification
+    * b. Regression
+    * c. Dimension reduction 
+    * d. Clustering
+
+Answer: (b)
+
+
+4. Which of the following can be used for predicting continuous outcomes:
+    * a. Classification
+    * b. Regression
+    * c. Dimension reduction 
+    * d. Clustering
+
+Answer: (b)
+
+
+5. Which of the following reason is Python the most popular programming languages in data science:
+    * a. Good performance for computation-intensive tasks
+    * b. A large number of useful add-on libraries.
+    * c. Numeric computation libraries built on C code allow for efficient and fast scripts.
+    * d. Python has great developers and open-source community.
+
+Answer: (a)
 
 ## Chapter 2
 
@@ -171,3 +214,4 @@ Answer: (d)
     * d. Increase the regularization parameter
 
 Answer: (a)
+
