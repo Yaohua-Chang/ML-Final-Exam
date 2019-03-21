@@ -35,7 +35,7 @@ Answer: (b)
 Answer: (b)
 
 
-5. Which of the following reason is Python the most popular programming languages in data science:
+5. Which of the following reason is Not Python the most popular programming languages in data science:
     * a. Good performance for computation-intensive tasks
     * b. A large number of useful add-on libraries.
     * c. Numeric computation libraries built on C code allow for efficient and fast scripts.
