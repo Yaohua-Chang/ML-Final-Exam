@@ -70,14 +70,6 @@ Answer: (c)
 
 Answer: (d)
 
-3. Which technique does gradient descent benefit from?
-    * a. feature selection
-    * b. feature extraction
-    * c. feature reduction
-    * d. feature scaling
-
-Answer: (d)
-
 
 4. Which of the following is not a type of gradient descent?
     * a. stochastic gradient descent 
@@ -118,8 +110,7 @@ Answer: (b)
     * a. Simple to understand and to interpret
     * b. Effective in high dimensional spaces
     * c. Requires little data preparation
-    * d. Performs well even if its assumptions are somewhat violated by the true model 
-        from which the data were generated
+    * d. Performs well even if its assumptions are somewhat violated by the true model from which the data were generated
 
 Answer: (b)
 
@@ -189,11 +180,11 @@ Answer: (c)
 
 Answer: (a)
 
-2. Which of the following algorithms cannot be used for reducing the dimensionality of data?
+2. Which of the following algorithms can be used for reducing the dimensionality of data?
     * a. t-SNE
     * b. PCA
-    * c. LDA False
-    * d. None of these
+    * c. LDA
+    * d. All of the above
 
 Answer: (d)
 
@@ -265,3 +256,4 @@ Answer: (d)
     * d. Increase the regularization parameter
 
 Answer: (a)
+
