@@ -1,4 +1,4 @@
-## Chapter 1
+## Chapter 1 Introduction
 1. Which of the following is not types of machine learning:
     * a. supervised learning
     * b. unsupervised learning
@@ -35,7 +35,7 @@ Answer: (b)
 Answer: (b)
 
 
-5. Which of the following reason is Not Python the most popular programming languages in data science:
+5. Which of the following reason is Python the most popular programming languages in data science:
     * a. Good performance for computation-intensive tasks
     * b. A large number of useful add-on libraries.
     * c. Numeric computation libraries built on C code allow for efficient and fast scripts.
@@ -43,7 +43,7 @@ Answer: (b)
 
 Answer: (a)
 
-## Chapter 2
+## Chapter 2 Simple ML for Classification, Perceptron, Adaline
 1. What is the main difference between Adaline and a Perceptron?
     * a. the weights are updated based on a linear activation function rather than a unit step function
     * b. the weights are updated based on a unit step function rather than linear activation function 
@@ -61,6 +61,14 @@ Answer: (a)
 
 Answer: (c)
 
+
+3. Which technique does gradient descent benefit from?
+    * a. feature selection
+    * b. feature extraction
+    * c. feature reduction
+    * d. feature scaling
+
+Answer: (d)
 
 3. Which technique does gradient descent benefit from?
     * a. feature selection
@@ -88,7 +96,8 @@ Answer: (d)
 
 Answer: (c)
 
-## Chapter 3
+## Chapter 3 Tour of ML Classifiers, Logistic Regression, SVM
+
 
 1. The effectiveness of an SVM depends upon:
     * a. Selection of Kernel
@@ -106,22 +115,25 @@ Answer: (d)
 
 Answer: (b)
 
-3. What is Not the advantage of decision trees?
+
+## Chapter 4 Decision Tree, KNN, Random Forest
+1. What is Not the advantage of decision trees?
     * a. Simple to understand and to interpret
     * b. Effective in high dimensional spaces
     * c. Requires little data preparation
-    * d. Performs well even if its assumptions are somewhat violated by the true model from which the data were generated
+    * d. Performs well even if its assumptions are somewhat violated by the true model 
+        from which the data were generated
 
 Answer: (b)
 
-4. A decision tree can be used to build models for 
+2. A decision tree can be used to build models for 
     * a. Classification problems
     * b. Regression problems
     * c. None of the aboven
     * d. Both of the above
 Answer: (d)
 
-5.  To reduce underfitting of a Random Forest model, which of the following method can be used?
+3.  To reduce underfitting of a Random Forest model, which of the following method can be used?
     * a. Increase minimum sample leaf value
     * b. Increase depth of trees
     * c. Increase the value of minimum samples to split
@@ -130,7 +142,7 @@ Answer: (d)
 Answer: (b)
 
 
-## Chapter 4
+## Chapter 5 Types of Data, One Hot encoding, Feature Selection
 1. Which strategy parameter is best choice for imputing categorical feature values when we deal with NaN value?
     * a. mean
     * b. median
@@ -171,7 +183,7 @@ Answer: (a)
 
 Answer: (c)
 
-## Chapter 5
+## Chapter 6 Dimension Reduction
 1. Which of the following is not fundamental dimensionality reduction technique for feature extraction?
     * a. ICA
     * b. standard PCA
@@ -180,11 +192,11 @@ Answer: (c)
 
 Answer: (a)
 
-2. Which of the following algorithms can be used for reducing the dimensionality of data?
+2. Which of the following algorithms cannot be used for reducing the dimensionality of data?
     * a. t-SNE
     * b. PCA
-    * c. LDA
-    * d. All of the above
+    * c. LDA False
+    * d. None of these
 
 Answer: (d)
 
@@ -212,7 +224,7 @@ Answer: (b)
 
 Answer: (a)
 
-## Chapter 6
+## Chapter 7 Hyper-parameters, Pipelines, Training/evaluation, overfitting
 1. What’s not the part of streamlining workflows with pipelines? 
 
     * a. Scaling dataset
@@ -257,3 +269,130 @@ Answer: (d)
 
 Answer: (a)
 
+
+
+## Chapter 8 Ensemble Methods, Bagging, Boosting
+1. Which of the following description is wrong for ensemble methods? 
+
+    * a. Ensemble learning increases the computational complexity compared to individual classifiers.
+    * b. The ensemble can be built from different classification algorithms
+    * c. the ensemble can be built from same base classification algorithm
+    * d. Ensemble methods always can work better than individual classifiers alone
+
+Answer: (d)
+
+2. Which of the following is woring for Bagging? 
+
+    * a. Bagging algorithm can be an effective approach to reduce the variance of a model
+    * b. Bagging is ineffective in reducing model bias
+    * c. Bagging is also known as bootstrap aggregating
+    * d. Bagging is an ensemble learning technique that is closely related to the MajorityVoteClassifier.
+
+Answer: (b)
+
+3. Which of the following algorithms is scale-invariant so that we don't need to apply StandardScaler into it?
+    * a. Logistic Regression
+    * b. k-nearest neighbors
+    * c. Decision Trees
+    * d. k-means
+
+Answer: (c)
+
+4. Which of the following is woring for Boosting? 
+
+    * a. Boosting consists of very simple base classifiers。
+    * b. Boosting let the weak learners subsequently learn from misclassified training samples to improve the performance of the ensemble.
+    * c. Boosting can lead to a decrease in bias as well as variance compared to bagging models.  
+    * d. A typical example of a strong learner is a decision tree stump. 
+
+Answer: (d)
+
+5. Which of the following is not common way to address overfitting? 
+
+    * a. Increase the number of parameters of the model
+    * b. Collect more training data
+    * c. Reduce the complexity of the model
+    * d. Increase the regularization parameter
+
+Answer: (a)
+
+
+## Chapter 9 Regression and Clustering
+1. Which of the following description is wrong for ensemble methods? 
+
+    * a. Cluster is a category of supervised learning techniques.
+    * b. Cluster allows us to discover hidden structures in data where we do not know the right answer upfront. 
+    * c. The goal of clustering is to find a natural grouping in data so that items in the same cluster are more similar to each other than to those from different clusters.
+    * d. Clustering is a technique that allows us to find groups of similar objects, objects that are more related to each other than to objects in other groups.
+
+
+Answer: (a)
+
+2. Which of the following is not example of business-oriented applications of clustering? 
+
+    * a. Grouping of documents, music, and movies by different topics.
+    * b. Finding customers that share similar interests based on common purchase behaviors as a basis for recommendation engines.
+    * c. Recommanding custom difference information according to their interest.
+    * d. Using in outlier detection applications such as detection of credit card fraud.
+
+Answer: (c)
+
+3. Which type of clustering does k-means belong to?
+    * a. Hierarchical clustering 
+    * b. Distance-based clustering
+    * c. Prototype-based clustering
+    * d. Density-based clustering
+
+Answer: (c)
+
+4. Which of the following description is woring for k-means? 
+
+    * a. k-means is not good at identifying clusters with a spherical shape.
+    * b. we have to specify the number of clusters for k-means.
+    * c. A problem with k-means is that one or more clusters can be empty. 
+    * d. Within-cluster Sum of Squared Errors (SSE) is sometimes also called cluster inertia. 
+
+Answer: (a)
+
+5. Which of the following description is woring for k-means++? 
+
+    * a. k-means++ can sometimes result in bad clusterings or slow convergence if the initial centroids are chosen poorly. 
+    * b. k-means++ doesn't address those assumptions and drawbacks of k-means
+    * c. k-means++ can greatly improve the clustering results through more clever seeding of the initial cluster centers.
+    * d. k-means++ place the initial centroids far away from each other, which leads to better and more consistent results than the classic k-means.
+
+Answer: (a)
+
+## Chapter 10 Clutering, Data Mining, Latent Model, Collab Filtering
+
+## Chapter 11 Multi-Layer Neural Network
+1. Which of the following description is wrong for Multilayer Perceptron (MLP)? 
+
+    * a. We can think of the neurons in the MLP as logistic regression units that return values in the continuous range between 0 and 1.
+    * b. MLP is a typical example of a feedforward artificial neural network. 
+    * c. MLP depicted in the preceding figure has one input layer, one or more hidden layer, and one output layer.
+    * d. To be able to solve complex problems such as image classification, we need non-linear activation functions in our MLP model, for example, the sigmoid (logistic) activation function.
+
+Answer: (c)
+
+2. Which of the following is not example of applications of  deep neural networks(DNNs)? 
+
+    * a. Google's image search
+    * b. Google Translate
+    * c. A mobile application that can detect skin cancer with an accuracy similar to professionally trained dermatologists
+    * d. Outlier detection applications such as detection of credit card fraud.
+
+Answer: (d)
+
+
+3. Which of the following description is woring for multilayer neural networks? 
+
+    * a. Adaline is a typical example of multilayer neural networks.
+    * b. Multilayer neural networks are much harder to train than simpler algorithms such as logistic regression, or support vector machines.
+    * c. If a neural network has more than one hidden layer, we also call it a deep artificial neural network. 
+    * d. MLP is a typical example of a multilayer neural network.
+
+Answer: (a)
+
+
+## Chapter 12 CNN, RNN
