@@ -3,7 +3,7 @@
     * a. supervised learning
     * b. unsupervised learning
     * c. reinforcement learning
-    * d. deep learning
+    * d. data learning
 
 Answer: (d)
 
@@ -284,7 +284,7 @@ Answer: (d)
 2. Which of the following is woring for Bagging? 
 
     * a. Bagging algorithm can be an effective approach to reduce the variance of a model
-    * b. Bagging is ineffective in reducing model bias
+    * b. Bagging is effective in reducing model bias
     * c. Bagging is also known as bootstrap aggregating
     * d. Bagging is an ensemble learning technique that is closely related to the MajorityVoteClassifier.
 
@@ -396,3 +396,5 @@ Answer: (a)
 
 
 ## Chapter 12 CNN, RNN
+
+
